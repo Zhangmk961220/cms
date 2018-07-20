@@ -9,8 +9,14 @@
         select * from category
     </select>
 
-
-
+    <update id="updateCategorys" parameterType="Category">
+        update category
+        set name=#{name}
+        where id=#{id}
+    </update>
+    <select id="findById" parameterType="Int" resultType="Category">
+        select * from category where id=#{id}
+    </select>
     <!--<select id="findById" parameterType="Int" resultType="User">-->
     <!--select * from user where id=#{id}-->
     <!--</select>-->
