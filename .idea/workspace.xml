@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a160d7ca-e164-4eec-8980-649a6ccb53a3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/ctrl/CategoryCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/ctrl/CategoryCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/dao/CategoryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/service/impl/CategoryServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/service/impl/CategoryServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/categoryManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/categoryManage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,12 +42,12 @@
     <favorites_list name="test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="QuestionServiceImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/test/service/impl/QuestionServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -63,7 +55,7 @@
       <file leaf-file-name="QuestionMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="816">
               <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
@@ -78,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/error.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -95,8 +87,13 @@
       <file leaf-file-name="QuestionCtrl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/test/ctrl/QuestionCtrl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="-205">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="e#944#960#0" expanded="true" />
+                <element signature="e#1803#1819#0" expanded="true" />
+                <element signature="e#2165#2181#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,11 +263,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="919" />
+    <option name="y" value="27" />
+    <option name="width" value="1077" />
+    <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,8 +275,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,6 +415,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -429,7 +426,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;DDL Data Source" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dcms 2/dcms" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26884422" />
@@ -784,6 +781,7 @@
       <workItem from="1531095152465" duration="796000" />
       <workItem from="1531285201973" duration="13156000" />
       <workItem from="1532165941905" duration="2482000" />
+      <workItem from="1532168665206" duration="3363000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1511580781296</created>
@@ -936,7 +934,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444310000" />
+    <option name="totallyTimeSpent" value="447673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,14 +946,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="830" y="34" width="1077" height="969" extended-state="0" />
-    <editor active="true" />
+    <frame x="807" y="16" width="1077" height="969" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32985657" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.17279726" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="right" id="调色板" />
+      <window_info anchor="right" id="调色板" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49787235" weight="0.284375" />
       <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.20454545" />
@@ -967,13 +964,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24712643" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.123563215" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24712643" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.33741754" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.62177986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.33741754" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info id="设计器" />
+      <window_info id="设计器" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50212765" side_tool="true" weight="0.1724138" />
@@ -983,12 +980,12 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32939634" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="right" id="RestServices" order="3" weight="0.32992566" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.16034986" />
+      <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32939634" />
@@ -999,7 +996,6 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32939634" />
-      <window_info anchor="right" id="RestServices" order="12" weight="0.32992566" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -1010,36 +1006,37 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Regex" order="9" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Properties" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32985657" />
+      <window_info anchor="bottom" id="Messages" order="17" weight="0.32939634" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="6" />
-      <window_info anchor="right" id="Database" order="9" sideWeight="0.49787235" weight="0.19366197" />
-      <window_info anchor="bottom" id="Tail" order="14" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="18" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3258786" />
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.17279726" />
-      <window_info anchor="right" id="Translate" order="11" weight="0.20235935" />
+      <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.20454545" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917898" visible="true" weight="0.15140845" />
       <window_info anchor="right" id="SciView" order="13" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.32939634" />
+      <window_info anchor="right" id="Database" order="9" sideWeight="0.49787235" weight="0.19366197" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Structure" order="1" sideWeight="0.500821" side_tool="true" weight="0.20454545" />
+      <window_info anchor="right" id="Translate" order="11" weight="0.20235935" />
+      <window_info anchor="right" id="RestServices" order="12" weight="0.32992566" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="14" sideWeight="0.50212765" side_tool="true" weight="0.1724138" />
-      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20534459" />
     </layout-to-restore>
   </component>
@@ -1127,13 +1124,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f24d354d-1beb-43cb-a511-b49ffc668f0f/console_4.sql" />
-    <entry file="das://f24d354d-1beb-43cb-a511-b49ffc668f0f/schema/dmcms/table/category.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://f24d354d-1beb-43cb-a511-b49ffc668f0f/schema/dmcms/table/category.sql" />
     <entry file="das://f24d354d-1beb-43cb-a511-b49ffc668f0f/schema/dmcms/table/category">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1292,12 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285">
           <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="e#1565#1566#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,13 +1355,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/service/impl/QuestionServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="816">
           <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
@@ -1387,14 +1372,19 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/admin/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/test/ctrl/QuestionCtrl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="-205">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#944#960#0" expanded="true" />
+            <element signature="e#1803#1819#0" expanded="true" />
+            <element signature="e#2165#2181#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
