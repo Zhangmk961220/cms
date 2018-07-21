@@ -71,10 +71,25 @@ public class CategoryServiceImp implements CategoryService {
     public boolean addCategorys(Category categorys) {
         return false;
     }
+
+
     @Override
     public boolean deleteCategorys(String id) {
+        return mCategoryDao.deleteCategorys(id)>0;
+}
+
+    @Override
+    public boolean deleteChildCategorys(String id) {
+        //System.out.println(id);
+        //System.out.println(mCategoryDao.deleteChildCategory(id));
+
+        int rowCount = mCategoryDao.deleteChildCategorys(id);
+        if (rowCount>0) {
+            return true;
+        }
         return false;
     }
+
 
     @Override
     public Category QueryById(int id) {
