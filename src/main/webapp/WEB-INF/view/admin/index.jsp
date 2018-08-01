@@ -227,7 +227,7 @@
             <ul class="nav" id="main-menu">
 
                 <li>
-                    <a href="index.jsp" class="active-menu waves-effect waves-dark"><i class="fa fa-desktop"></i>
+                    <a href="${pageContext.request.contextPath}/" class="active-menu waves-effect waves-dark"><i class="fa fa-desktop"></i>
                         工作台</a>
 
                 </li>
@@ -285,12 +285,12 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="tab-panel.html" class="active-menu waves-effect waves-dark"><i class="fa fa-qrcode"></i>
+                    <a href="${pageContext.request.contextPath}/QuestionListView.do" class="active-menu waves-effect waves-dark"><i class="fa fa-qrcode"></i>
                         调查问卷管理<span class="fa arrow"></span></a>
                 </li>
 
                 <li>
-                    <a href="table.html" class="active-menu waves-effect waves-dark"><i class="fa fa-magic"></i>
+                    <a href="#" class="active-menu waves-effect waves-dark"><i class="fa fa-magic"></i>
                         系统管理<span class="fa arrow"></span></a>
                     <!--<a href="table.html" class="active-menu waves-effect waves-dark"><i class="fa fa-edit"></i> 系统管理<span class="fa arrow"></span></a>-->
                 </li>
@@ -585,7 +585,7 @@
                         <div class="card-image">
                             <ul class="collection">
                                 <li class="collection-item avatar">
-                                    <i class="material-icons circle green">track_changes</i>
+                                    <%--<i class="material-icons circle green">track_changes</i>--%>
                                     <span class="title">Title</span>
                                     <p>First Line <br>
                                         Second Line
