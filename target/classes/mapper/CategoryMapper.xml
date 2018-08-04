@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD
+ Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace实际上接口的名字 -->
+<mapper namespace="org.test.dao.CategoryDao">
+
+    <select id="getCategorys" resultType="Category">
+        select * from category
+    </select>
+
+    <update id="updateCategorys" parameterType="Category">
+        update category
+        set name=#{name}
+        where id=#{id}
+    </update>
+    <select id="findById" parameterType="Int" resultType="Category">
+        select * from category where id=#{id}
+    </select>
+    <delete id="deleteCategorys" parameterType="java.lang.String">
+        delete from category where id=#{id}
+    </delete>
+
+    <delete id="deleteChildCategorys"  parameterType="java.lang.String">
+        delete from category where parentId=#{id}
+    </delete>
+    <!--<select id="findById" parameterType="Int" resultType="User">-->
+    <!--select * from user where id=#{id}-->
+    <!--</select>-->
+    <!--<update id="updateEditor" parameterType="User">-->
+    <!--update user-->
+    <!--set username = #{username},password=#{password}-->
+    <!--where id=#{id}-->
+    <!--</update>-->
+
+    <!--<insert id="addEditor" parameterType="User">-->
+    <!--insert into user (username, password, sex, role) values ( #{username} ,#{password}, #{sex},'editor')-->
+    <!--</insert>-->
+
+
+
+</mapper>

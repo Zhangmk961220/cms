@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD
+ Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace实际上接口的名字 -->
+<mapper namespace="org.test.dao.QuesitonDao">
+
+
+
+    <!--<delete id="deleteChildCategory"  parameterType="java.lang.String">-->
+        <!--delete from category where son=#{id}-->
+    <!--</delete>-->
+    <!--<select id="findById" parameterType="Int" resultType="User">-->
+        <!--select * from user where id=#{id}-->
+    <!--</select>-->
+    <!--<update id="updateEditor" parameterType="User">-->
+        <!--update user-->
+        <!--set username = #{username},password=#{password}-->
+        <!--where id=#{id}-->
+    <!--</update>-->
+
+    <sql id="TABLE_NAME">question</sql>
+    <insert id="addQuestion" parameterType="org.test.entity.Question" useGeneratedKeys="true" keyProperty="id">
+        insert into
+        <include refid="TABLE_NAME" />
+        (USERNAME,OLD,SELECTS,SEX,PAGE,COMMENTS)
+        values(
+        #{username},#{old},#{selects},#{sex},#{page},#{comments})
+    </insert>
+    <select id="getQuestions" resultType="org.test.entity.Question">
+        select * from question
+    </select>
+
+    <delete id="deleteQuestion" >
+        delete from question where id=#{id}
+    </delete>
+
+</mapper>
