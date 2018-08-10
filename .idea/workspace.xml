@@ -76,11 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="template.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/template.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="25" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1245">
+                <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -184,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/test/ctrl/CmsCrtl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/ctrl/CmsCtrl.java" />
         <option value="7aa3dbbc-3d70-4580-bc8e-1e164fecb99c/schema/testcms/table/resource.sql" />
-        <option value="$PROJECT_DIR$/db.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/service/impl/UserServiceImp.java" />
@@ -197,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/test/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/test/ctrl/templateCtrl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/template.properties" />
+        <option value="$PROJECT_DIR$/db.md" />
       </list>
     </option>
   </component>
@@ -721,7 +733,7 @@
       <workItem from="1533352481630" duration="741000" />
       <workItem from="1533353396179" duration="1058000" />
       <workItem from="1533882418840" duration="301000" />
-      <workItem from="1533882918568" duration="6647000" />
+      <workItem from="1533882918568" duration="6903000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1511580781296</created>
@@ -839,7 +851,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="463887000" />
+    <option name="totallyTimeSpent" value="464143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1042,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://7aa3dbbc-3d70-4580-bc8e-1e164fecb99c/schema/testcms/table/article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://7aa3dbbc-3d70-4580-bc8e-1e164fecb99c/schema/testcms/table/article.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1144,16 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2001">
-            <caret line="87" selection-end-line="87" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1346,10 +1341,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://7aa3dbbc-3d70-4580-bc8e-1e164fecb99c/schema/testcms/table/article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/template.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1245">
+            <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
