@@ -9,7 +9,6 @@
         select * from article
     </select>
 
-<<<<<<< HEAD
     <insert id="addArticle" parameterType="org.test.entity.Article">
         <selectKey resultType="java.lang.Long" order="AFTER" keyProperty="id">
             SELECT LAST_INSERT_ID() as id
@@ -27,21 +26,15 @@
         where id = #{id}
     </update>
 
-
-
-=======
-    <insert id="addArticle" parameterType="Article">
+    <insert id="addArticles" parameterType="Article">
     insert into article (name, content) values ( #{name} ,#{content})
     </insert>
 
->>>>>>> 822c6e08712a60946e9b4bd56209f5e16a38b424
+
     <delete id="delete">
     <!--数据库user表的id =#{实体类中的id属性}-->
     delete from article where id=#{id}
     </delete>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 822c6e08712a60946e9b4bd56209f5e16a38b424
 </mapper>
