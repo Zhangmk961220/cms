@@ -23,6 +23,7 @@
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
+
 <!-- Navigation-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <a class="navbar-brand" href="${pageContext.request.contextPath}/">unicorn</a>
