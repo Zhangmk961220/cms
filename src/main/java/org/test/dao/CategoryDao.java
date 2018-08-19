@@ -2,6 +2,8 @@ package org.test.dao;
 
 import org.springframework.stereotype.Repository;
 import org.test.entity.Category;
+import org.test.entity.Entity;
+
 import java.util.List;
 
 /**
@@ -11,7 +13,10 @@ import java.util.List;
  * */
 @Repository
 public interface CategoryDao {
-    List<Category> getCategorys();
+    List<Category> getCategories();
+    List<Entity> getEntities();
+
+
     public  int updateCategorys(Category categorys);
     public void addCategorys(Category categorys);
     Category findById(int id);

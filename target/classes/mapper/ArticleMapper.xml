@@ -9,7 +9,6 @@
         select * from article
     </select>
 
-
     <insert id="addArticle" parameterType="org.test.entity.Article">
         <selectKey resultType="java.lang.Long" order="AFTER" keyProperty="id">
             SELECT LAST_INSERT_ID() as id
@@ -28,12 +27,6 @@
     </update>
 
     <insert id="addArticles" parameterType="Article">
-    insert into article (name, content) values ( #{name} ,#{content})
-    </insert>
-
-
-
-    <insert id="addArticle" parameterType="Article">
     insert into article (name, content) values ( #{name} ,#{content})
     </insert>
 

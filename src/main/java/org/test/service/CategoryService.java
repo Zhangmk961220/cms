@@ -6,12 +6,13 @@ import org.test.entity.CategoryVO;
 import java.util.List;
 
 public interface CategoryService {
-    List<CategoryVO> getCategorys();
+    List<Category> getCategories();
+    List<Category> getMenu();
 
-    List<Category> getCategory();
-    public boolean addCategorys(Category categorys);
-    public boolean deleteCategorys(String id);
-    public boolean deleteChildCategorys(String id);
-    public boolean updateCategorys(Category categorys);
-    public Category QueryById(int id);
+//    List<Category> getCategory();
+//    public boolean addCategorys(Category categorys);
+//    public boolean deleteCategorys(String id);
+//    public boolean deleteChildCategorys(String id);
+//    public boolean updateCategorys(Category categorys);
+//    public Category QueryById(int id);
 }

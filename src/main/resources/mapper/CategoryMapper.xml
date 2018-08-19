@@ -5,8 +5,18 @@
 <!-- namespace实际上接口的名字 -->
 <mapper namespace="org.test.dao.CategoryDao">
 
-    <select id="getCategorys" resultType="Category">
-        select * from category
+    <select id="getCategories" resultType="org.test.entity.Category">
+        select id as id,
+        name as name
+        from category
+    </select>
+
+    <select id="getEntities" result="org.test.entity.Entity">
+        select id as id,
+        category_id as categoryId,
+        name as name,
+        type as type
+        from entity
     </select>
 
     <update id="updateCategorys" parameterType="Category">
@@ -36,7 +46,4 @@
     <!--<insert id="addEditor" parameterType="User">-->
     <!--insert into user (username, password, sex, role) values ( #{username} ,#{password}, #{sex},'editor')-->
     <!--</insert>-->
-
-
-
 </mapper>

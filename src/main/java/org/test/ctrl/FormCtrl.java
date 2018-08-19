@@ -46,7 +46,7 @@ public class FormCtrl {
 @RequestMapping("/addFormView.do")
 public ModelAndView gotoAddView(){
     Map<String,Object> model = new HashMap<String,Object>();
-    List<Category> cate = categoryService.getCategory();
+    List<Category> cate = categoryService.getCategories();
     List<Article> article = articleService.getArticles();
     model.put("cates",cate);
     model.put("articles",article);
