@@ -46,7 +46,4 @@
     <!--<insert id="addEditor" parameterType="User">-->
     <!--insert into user (username, password, sex, role) values ( #{username} ,#{password}, #{sex},'editor')-->
     <!--</insert>-->
-
-
-
 </mapper>
