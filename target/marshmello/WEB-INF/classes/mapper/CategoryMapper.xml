@@ -11,13 +11,13 @@
         from category
     </select>
 
-    <select id="getEntities" resultType="org.test.entity.Entity">
-        select id as id,
-        category_id as categoryId,
-        name as name,
-        type as type
-        from entity
-    </select>
+    <!--<select id="getEntities" resultType="org.test.entity.Entity">-->
+        <!--select id as id,-->
+        <!--category_id as categoryId,-->
+        <!--name as name,-->
+        <!--type as type-->
+        <!--from entity-->
+    <!--</select>-->
 
     <update id="updateCategorys" parameterType="Category">
         update category

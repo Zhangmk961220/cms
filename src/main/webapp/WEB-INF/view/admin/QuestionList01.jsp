@@ -250,8 +250,80 @@
                 <div class="card mb-3">
                     <div class="card-header">
                         <a><i class="fa "></i> list </a>
-
                     </div>
+                    <!--
+                        作者：81336791@qq.com
+                        时间：2018-09-04
+                        描述：调查问卷样式表
+                    -->
+                    <div class="card-header" style="height: 830px;width: 400px;margin: auto;border: 1px solid black;margin-top: 15px;">
+                        <div id="from">
+                            <a> 调查问卷1样式表 </a>
+
+                            <form >
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">您的名字是</label>
+                                    <input class="form-control" type="text" name="username" readonly="true">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">您现在的年龄是？</label>
+                                    <input class="form-control" type="text" name="old" readonly="true">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">您希望我们公司为您展现哪一方面的业务？</label>
+                                    <select class="form-control" name="selects" readonly="true">
+                                        <option value="科技">科技</option>
+                                        <option value="生活">生活</option>
+                                        <option value="人文">人文</option>
+                                        <option value="历史">历史</option>
+                                        <option value="艺术">艺术</option>
+                                        <option value="音乐">音乐</option>
+                                        <option value="社会时事新闻">社会时事新闻</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">您的性别？</label>
+                                    <p></p>
+                                    <input type="hidden" id="sex">
+                                    <input type="radio" name="sex" value="男" checked="checked"  readonly="true"/>男
+                                    <input type="radio" name="sex" value="女"  readonly="true"/>女
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">关于我们的主页</label>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">您最喜欢哪方面的内容？</label>
+                                    <p></p>
+                                    <input type="hidden" id="page">
+                                    <input type="radio" name="page" value="主页" checked="checked"  readonly="true"/>主页
+                                    <input type="radio" name="page" value="公司信息" readonly="true"/>公司信息
+                                    <input type="radio" name="page" value="栏目内容" readonly="true"/>栏目内容
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">您对我们的公司有什么宝贵的意见和建议？</label>
+                                    <textarea name="comments" style="height: 185px;width: 260px;" readonly="true"/></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" value="提交" class="btn btn-default">
+                                    <input type="reset" value="重写" class="btn btn-default">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <!--
+                        作者：81336791@qq.com
+                        时间：2018-09-04
+                        描述：问卷内容表单
+                    -->
+
+
 
                     <div class="card-body">
                         <div class="table-responsive">
@@ -297,7 +369,7 @@
                             </div>
                         </div>
 
-                    </div>s
+                    </div>
                 </div>
             </div>
 

@@ -19,7 +19,7 @@ public class QuestionCtrl {
     QuestionService questionService;
 
     @RequestMapping("/QuestionListView.do")
-    public String reqQuestionListView(){ return ("/admin/QuestionList"); }
+        public String reqQuestionListView(){ return ("/admin/QuestionList"); }
 
     @RequestMapping("/addQuestionView.do")
     public String reqAddQuestionView(){
